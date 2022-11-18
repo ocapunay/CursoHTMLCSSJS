@@ -1,0 +1,32 @@
+body {
+	background-image: url("fondo01.jpg");
+}
+
+#id01 {
+	font-family: Verdana;
+	font-size: 12pt;
+}
+
+h2 {
+	font-family: Arial;
+	color:  blue;
+}
+
+.subt1 {
+	color: #a0ffa0;
+	font-size: 14pt;
+}
+
+h1 {
+	color: #ffffff;
+	background-color: #b4b4b4;
+	font-family: Arial;
+}
+
+p {
+	color: #606060;
+}
+
+.oculto {
+	display: none;
+}

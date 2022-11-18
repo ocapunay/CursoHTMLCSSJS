@@ -1,0 +1,24 @@
+div {
+	background-color: #a5a5a5;
+	text-align: center;
+	justify-content: center;
+	line-height: 200px;
+	vertical-align: middle;
+	display: inline-block;
+	width: 30%;
+	height: 200px;
+	border: red 2px solid;
+	margin: 0px;
+	padding: 0px;
+}
+
+div::before {
+	content: "Ejemplo de contenido";
+	background-color: red;
+}
+
+div::after {
+	content: "prueba";
+	background-color: blue;
+	font-size: 15pt;
+}

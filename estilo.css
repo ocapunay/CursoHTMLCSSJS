@@ -1,0 +1,26 @@
+h1 {
+	color: red;
+	font-family: verdana;
+}
+
+h2 {
+	color: blue;
+	font-family: arial;
+}
+
+p {
+	color: green;
+	background-color: #A4A4A4;
+	font-size: 14px;
+}
+
+.clase1 {
+	color: #005050;
+	background-color: #F4F4A4;
+	text-align: center;
+}
+
+.clase2 {
+	color: #8F008F;
+	background-color: #04A0A0;
+}

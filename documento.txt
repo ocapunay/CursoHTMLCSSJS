@@ -1,0 +1,12 @@
+<h1>¿Qu&eacute; es el AJAX?</h1>
+AJAX = Asincr&oacute;nico JavaScript y XML.
+
+AJAX no es un lenguaje de programación.
+
+AJAX solo usa una combinación de:
+
+Un XMLHttpRequestobjeto incorporado en el navegador (para solicitar datos de un servidor web)
+JavaScript y HTML DOM (para mostrar o usar los datos)
+AJAX es un nombre engañoso. Las aplicaciones AJAX pueden usar XML para transportar datos, pero es igualmente común transportar datos como texto sin formato o texto JSON.
+
+AJAX permite que las páginas web se actualicen de forma asíncrona mediante el intercambio de datos con un servidor web detrás de escena. Esto significa que es posible actualizar partes de una página web, sin volver a cargar toda la página.

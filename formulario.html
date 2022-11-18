@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Formulario</title>
+		<!-- CSS only -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="container">
+		<form action="datos.php">
+			<div class="form-group">
+				<label for="txtnombres">Nombres</label>
+				<input type="text" name="txtnombres" id="txtnombres" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="txtapellidos">Apellidos</label>
+				<input type="text" name="txtapellidos" id="txtapellidos" class="form-control">
+			</div>
+			<div class="form-group">
+				<label for="txtprueba">Prueba</label>
+				<input type="file" name="txtprueba" id="txtprueba" class="form-control">
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="optsexo" id="opt1">
+				<label class="form-check-label" for="opt1">Masculino</label>
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="optsexo" id="opt2">
+				<label class="form-check-label" for="opt2">Femenino</label>
+			</div>
+			<div class="form-check">
+				<label class="form-check-label">Socio:</label>
+				<input class="form-check-input" type="checkbox" name="chksocio" checked="checked">
+			</div>
+			<div class="form-group">
+				<label for="lstregion">Departamento</label>
+				<select class="form-control" name="lstregion" id="lstregion">
+					<option>Seleccionar</option>
+					<option value="1">Tumbes</option>
+					<option value="2">Piura</option>
+					<option value="3">Lambayeque</option>
+					<option value="4">La Libertad</option>
+					<option value="5">Ancash</option>
+					<option value="6" selected="selected">Lima</option>
+					<option value="7">Ica</option>
+					<option value="8">Arequipa</option>
+					<option value="9">Moquegua</option>
+					<option value="10">Tacna</option>
+				</select>
+			</div>
+			<div class="form-group">
+				<button class="btn btn-primary" type="button">Registrar</button>
+				<button class="btn btn-secondary" type="button">Cancelar</button>
+				<button class="btn btn-info" type="button">Info</button>
+				<button class="btn btn-danger" type="button">Anular</button>
+				<a class="btn btn-success" href="https://www.google.com">Ir a Google</a>
+			</div>
+		</form>
+		</div>
+
+		<!-- JavaScript Bundle with Popper -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+	</body>	
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<script type="text/javascript">
+		function cambiar() {
+		  var xhttp = new XMLHttpRequest();
+		  xhttp.onreadystatechange = function() {
+		    if (this.readyState == 4 && this.status == 200) {
+		     document.getElementById("demo").innerHTML = this.responseText;
+		    }
+		  };
+		  xhttp.open("GET", "documento.txt", true);
+		  xhttp.send();
+		}
+	</script>
+</head>
+<body>
+
+
+<div id="demo">
+  <h2>Texto de prueba</h2>
+  <button type="button" onclick="cambiar()"> Cambiar </button>
+</div>
+
+</body>
+</html>
